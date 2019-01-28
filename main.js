@@ -1,3 +1,8 @@
+/*
+  @param ${number} int
+  Calculates the square of each digit in the passed number.
+*/
+
 const sqDigits = (int) => {
   if(isNaN(int)) return console.log('You need to pass a number.')
 
